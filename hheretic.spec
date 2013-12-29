@@ -6,7 +6,7 @@ Summary:		Hacked Heretic is a Linux port of Raven Games old shooter, Heretic
 License:		GPL
 Group:			Games/Arcade
 Version:		0.2.2
-Release:		%mkrel 0.1
+Release:		0.2
 URL:			http://hheretic.sourceforge.net/
 Source:			http://downloads.sourceforge.net/hheretic/%{name}-%{version}-src.tgz
 Source1:		%{name}.png
