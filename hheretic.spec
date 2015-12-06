@@ -5,16 +5,15 @@ Name:			hheretic
 Summary:		Hacked Heretic is a Linux port of Raven Games old shooter, Heretic
 License:		GPL
 Group:			Games/Arcade
-Version:		0.2.2
-Release:		0.3
-URL:			http://hheretic.sourceforge.net/
-Source:			http://downloads.sourceforge.net/hheretic/%{name}-%{version}-src.tgz
+Version:		0.2.3
+Release:		1
+URL:			http://hhexen.sourceforge.net//hheretic.html
+Source:			http://sourceforge.net/projects/hhexen/files/hheretic/%{version}/%{name}-%{version}-src.tgz
 Source1:		%{name}.png
-Source90:		%{name}-rpmlintrc
-BuildRoot:		%{_tmppath}/%{name}-%{version}-build
-BuildRequires:	GL-devel
-BuildRequires:	SDL-devel >= 1.2.4
-BuildRequires:	SDL_mixer-devel >= 1.2.4
+Source90:		%{name}.rpmlintrc
+BuildRequires:	pkgconfig(gl)
+BuildRequires:	pkgconfig(sdl)
+BuildRequires:	pkgconfig(SDL_mixer)
 Requires:	TiMidity++
 
 %description

@@ -1,4 +1,3 @@
 sources:
-  "hheretic-0.2.2-src.tgz:"	5b5f1873bb531071ae8a375b08357e13ba94384b
-  "hheretic.png:"	23cac6ea54368e848443ebe5b5c63db075fa4bfc
-  "hheretic-rpmlintrc:"	3ad8f02a9a540d6620959c1f65e4d738eb454318
+  hheretic-0.2.3-src.tgz: f2b29748ba3164fcec21c5e83c013caa665e5c7e
+  hheretic.png: 23cac6ea54368e848443ebe5b5c63db075fa4bfc
