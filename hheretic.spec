@@ -12,6 +12,7 @@ Source:			http://sourceforge.net/projects/hhexen/files/hheretic/%{version}/%{nam
 Source1:		%{name}.png
 Source90:		%{name}.rpmlintrc
 BuildRequires:	pkgconfig(gl)
+BuildRequires:	pkgconfig(glu)
 BuildRequires:	pkgconfig(sdl)
 BuildRequires:	pkgconfig(SDL_mixer)
 Requires:	TiMidity++
