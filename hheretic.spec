@@ -1,4 +1,3 @@
-
 %define _prefix	/usr
 
 Name:			hheretic
@@ -6,7 +5,7 @@ Summary:		Hacked Heretic is a Linux port of Raven Games old shooter, Heretic
 License:		GPL
 Group:			Games/Arcade
 Version:		0.2.3
-Release:		1
+Release:		2
 URL:			http://hhexen.sourceforge.net//hheretic.html
 Source:			http://sourceforge.net/projects/hhexen/files/hheretic/%{version}/%{name}-%{version}-src.tgz
 Source1:		%{name}.png
@@ -161,4 +160,3 @@ EOF
 # %doc README.sharewarewad
 # %dir %{_datadir}/games/%{name}
 # %{_datadir}/games/%{name}/*.wad
-
