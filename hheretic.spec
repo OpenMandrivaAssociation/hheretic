@@ -6,7 +6,7 @@ License:		GPL
 Group:			Games/Arcade
 Version:		0.2.3
 Release:		2
-URL:			http://hhexen.sourceforge.net//hheretic.html
+URL:			https://hhexen.sourceforge.net//hheretic.html
 Source:			http://sourceforge.net/projects/hhexen/files/hheretic/%{version}/%{name}-%{version}-src.tgz
 Source1:		%{name}.png
 Source90:		%{name}.rpmlintrc
