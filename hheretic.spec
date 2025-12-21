@@ -10,6 +10,11 @@ URL:			https://hhexen.sourceforge.net//hheretic.html
 Source:			http://sourceforge.net/projects/hhexen/files/hheretic/%{version}/%{name}-%{version}.tar.gz
 Source1:		%{name}.png
 Source90:		%{name}.rpmlintrc
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(gl)
 BuildRequires:	pkgconfig(glu)
 BuildRequires:	pkgconfig(sdl)
